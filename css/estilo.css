@@ -1,0 +1,325 @@
+/*Formatação Index*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgba(56, 192, 218, 1);
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Formatação Menu*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: auto;
+    max-width: 1000px;
+}
+.menu ul {
+    display: none;
+    margin-top: 10px;
+}
+.menu ul li {
+    display: inline;
+    padding-left: 50px;
+}
+.menu ul li a {
+    color: rgba(56, 192, 218, 1);
+}
+.menu ul li a:hover {
+    color: rgba(132, 245, 201, 1);
+}
+.logo {
+    margin-left: 70px;
+}
+.logo2 {
+    padding-right: 180px;
+    padding-top: 10px;
+    color: rgba(56, 192, 218, 1);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Formatação Header*/
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+/*Formatação seções*/
+.conteudo {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 0;
+}
+    /*linha*/
+.conteudo .area {
+    text-align: center;
+    border-bottom-color: rgba(220, 220, 220, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.conteudo .area>div {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*Formatação da seção informações*/
+
+i {
+    margin-bottom: 15px;
+    color: rgba(188, 225, 231, 1);
+    font-size: 30px;
+}
+.conteudo .titulo {
+    color: rgba(56, 192, 218, 1);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.conteudo p {
+    color: rgba(120, 158, 164, 1);
+}
+
+
+/*Formatação da seção serviços*/
+
+.servicos img {
+    margin-bottom: 20px;
+}
+.servicos p {
+    font-size: 12px;
+}
+
+/*Formatação da seção novidades*/
+.novidades .titulo {
+    text-align: justify;
+}
+.novidades p {
+    text-align: justify;
+}
+/*Formatação da seção mapa*/
+
+.mapa img {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.mapa .titulo {
+    font-size: 50px;
+    text-align: left;
+}
+.mapa p {
+    font-size: 25px;
+    text-align: left;
+}
+.mapa img {
+    margin-right: 410px;
+}
+
+/*Formatação seção desenvolvedor*/
+
+h3 {
+    font-size: 12px;
+    color: rgba(120, 158, 164, 1);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.cor {
+    color: rgba(56, 192, 218, 1);
+}
+/*Rodapé*/
+footer {
+    height: 50px;
+}
+.base {
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    background-color: rgba(76, 76, 76, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.base ul {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+}
+.base ul li {
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/*Formatação das páginas filhas*/
+.conteudo1 {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 0;
+}
+.conteudo1 .area>div {
+        padding: 20px;
+        text-align: left;
+        flex: 1;
+}
+.conteudo1 .titulo {
+    color: rgba(56, 192, 218, 1);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.conteudo1 p {
+    color: rgba(120, 158, 164, 1);
+}
+.conteudo2 {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 0;
+}
+.conteudo2 .area {
+    text-align: left;
+    border-bottom-color: rgba(220, 220, 220, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.conteudo2 .area>div {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.conteudo2 .titulo {
+    color: rgba(56, 192, 218, 1);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.conteudo2 p {
+    color: rgba(120, 158, 164, 1);
+}
+/*Página Sobre nós*/
+.nos {
+    text-align: center;
+    color: rgba(120, 158, 164, 1);
+    font-size: 1.5vw;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.5;
+}
+.conteudo1 img {
+    margin: auto;
+    border-radius: 10%;
+}
+.conteudo2 img {
+    margin: auto;
+    border-radius: 10%;
+}
+
+
+/*Página serviços*/
+
+.area ul {
+    list-style-position: inside;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.area ul li {
+    color: rgba(120, 158, 164, 1);
+    padding: 5px;
+}
+.conteudo1 .area img {
+    margin-bottom: 15px;
+}
+.conteudo2 .area img {
+    margin-bottom: 15px;
+}
+.conteudo1 .titulo1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: rgba(56, 192, 218, 1);
+}
+.conteudo2 .titulo1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: rgba(56, 192, 218, 1);
+}
+
+/*Página Novidades*/
+
+/*Página Contato*/
+.conteudo3 {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 0;
+}
+.conteudo3 .area {
+    text-align: left;
+    border-bottom-color: rgba(220, 220, 220, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.conteudo3 .area>div {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteudo3 .titulo {
+    color: rgba(56, 192, 218, 1);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.conteudo3 p {
+    color: rgba(120, 158, 164, 1);
+    padding: 10px;
+    font-size: 20px;
+}
+.conteudo3 .area>div {
+    color: rgba(120, 158, 164, 1);
+}
+#data {
+    color: rgba(120, 158, 164, 1);
+}
+.formtexto {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(56, 192, 218, 1);
+    background-color: rgba(120, 158, 164, 0.2);
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+.formtexto:focus {
+    background-color: rgba(56, 192, 218, 0.2);
+    color: rgb(21, 42, 233);
+}
+input[type=submit] {
+    padding: 15px 40px;
+    background-color: rgba(56, 192, 218, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    background-color: rgba(120, 158, 164, 1);  
+}
+.area form span {
+    color: red;
+    font-size: 20px;
+}
+
+
+@media (min-width: 768px)  {
+    .menu ul {
+        display: block;
+    }
+    .menu .botao {
+        display: none;
+    }
+    section.area {
+        display: flex;
+    } 
+}
